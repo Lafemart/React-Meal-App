@@ -8,7 +8,7 @@ React-Meal-App
   - Logo
   - Cart
 - Description modal
-- Meal Menu
+- List of meal
 - Order confirmation modal
 
 ## Screens
