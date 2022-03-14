@@ -1,7 +1,8 @@
 import React from "react";
 
-import { StyledCart } from "./Cart.styled";
+import { StyledCart, StyledCartBadge } from "./Cart.styled";
 import CartIcon from "./CartIcon";
+import CartBadge from "./CartBadge";
 
 const Cart = () => {
 	return (
@@ -9,9 +10,10 @@ const Cart = () => {
 			<span>
 				<CartIcon />
 			</span>
-			<span></span>
-			<span></span>
-			{"Cart"}
+			<span>{"Your Cart"}</span>
+			<span>
+				<CartBadge />
+			</span>
 		</StyledCart>
 	);
 };
